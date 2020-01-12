@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/txtMieuTa"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="@string/Text_No1" />
+
+    <EditText
+        android:id="@+id/edtMieuTa1"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:ems="10"
+        android:hint="@string/Text_HintNo1"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtNo"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:text="@string/Text_No2" />
+
+    <EditText
+        android:id="@+id/edtNo"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:ems="10"
+        android:hint="@string/Text_HintNo2"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnQuayLai1"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnQuayLai" />
+
+        <Button
+            android:id="@+id/btnXacNhan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnXacNhan" />
+    </LinearLayout>
+
+</LinearLayout>

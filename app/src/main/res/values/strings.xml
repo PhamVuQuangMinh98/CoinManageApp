@@ -1,0 +1,47 @@
+<resources>
+    //menu - tab
+    <string name="app_name">CoinManage</string>
+    <string name="TrangChu">Trang chủ</string>
+    <string name="QuanLyNguonThu">Quản lý nguồn thu</string>
+    <string name="QuanLyChiTieu">Quản lý chi tiêu</string>
+    <string name="QuanLyNo">Quản lý nợ</string>
+    <string name="ThongKe">Thống kê</string>
+    <string name="CaiDat">Cài đặt</string>
+    <string name="Tab1">Ngày</string>
+    <string name="Tab2">Tuần</string>
+    <string name="Tab3">Tháng</string>
+    <string name="Tab4">Năm</string>
+
+    //activity main
+    <string name="Text_main1">Nguồn thu nhập của bạn là:</string>
+    <string name="Text_main2">Chi tiêu của bạn là:</string>
+
+
+    //activity add thu nhap - chi tieu - no
+    <string name="Text_ThuNhap1">Miêu tả nguồn thu của bạn:</string>
+    <string name="Text_ThuNhap2">Số tiền:</string>
+    <string name="Text_ChiTieu1">Miêu tả chi tiêu của bạn:</string>
+    <string name="Text_ChiTieu2">Số tiền:</string>
+    <string name="Text_No1">Miêu tả nợ của bạn:</string>
+    <string name="Text_No2">Số tiền:</string>
+    <string name="Text_HintThuNhap1">Việc làm chính, việc làm thêm,...:</string>
+    <string name="Text_HintThuNhap2">Nhập số tiền vào đây:</string>
+    <string name="Text_HintChiTieu1">Đi chợ, thuốc men, mua vật dụng nào đó,...</string>
+    <string name="Text_HintChiTieu2">Nhập số tiền vào đây:</string>
+    <string name="Text_HintNo1">Nợ cho việc gì, nợ ai,...</string>
+    <string name="Text_HintNo2">Nhập số tiền vào đây:</string>
+    <string name="btnQuayLai">Quay lại</string>
+    <string name="btnXacNhan">Xác nhận</string>
+
+    //activity thu nhap - chi tieu
+    <string name="Text_ThuNhap">Danh sách các khoản thu nhập của bạn</string>
+    <string name="Text_ChiTieu">Danh sách các khoản chi tiêu của bạn</string>
+    <string name="Text_No">Danh sách các khoản nợ của bạn</string>
+
+    //Phan loai chi tieu
+    <string name="ThucPham">Thực phẩm</string>
+    <string name="DoGiaDung">Đồ gia dụng</string>
+    <string name="GiaiTri">Giải trí</string>
+    <string name="ThuocMen">Thuốc men</string>
+
+</resources>

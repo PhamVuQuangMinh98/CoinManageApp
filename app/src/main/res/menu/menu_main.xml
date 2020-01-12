@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.coinmanage.MainActivity">
+    <item
+        android:id="@+id/QuanLyNguonThu"
+        android:orderInCategory="100"
+        android:title="@string/QuanLyNguonThu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/QuanLyChiTieu"
+        android:orderInCategory="100"
+        android:title="@string/QuanLyChiTieu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/QuanLyNo"
+        android:orderInCategory="100"
+        android:title="@string/QuanLyNo"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/TrangChu"
+        android:orderInCategory="100"
+        android:title="@string/TrangChu"
+        app:showAsAction="never" />
+</menu>
